@@ -1,7 +1,10 @@
 <script lang="ts">
-	import '../app.css';
+	import Navbar from '@/components/Navbar.svelte';
+import '../app.css';
+	import Footer from '@/components/Footer.svelte';
 	let { children } = $props();
-	export const prerender = true;
 </script>
 
+<Navbar />
 {@render children()}
+<Footer />
