@@ -1,7 +1,3 @@
-<script>
-	import Button from '@/components/ui/button/button.svelte';
-</script>
-
 <div class="mx-auto mt-4 md:mt-24 max-w-6xl px-4 sm:px-6 lg:px-8">
 	<div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
 		<div class="space-y-10">

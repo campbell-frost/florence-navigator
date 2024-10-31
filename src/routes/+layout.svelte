@@ -7,4 +7,9 @@ import '../app.css';
 
 <Navbar />
 {@render children()}
-<Footer />
+
+<div class="flex flex-col h-screen">
+	<div class="flex-grow">
+		<Footer />
+	</div>
+</div>
