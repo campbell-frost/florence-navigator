@@ -1,7 +1,7 @@
 import type { LocationModel } from '$lib/types';
 
 export const locations: Record<string, LocationModel> = {
-  'ebony-house': {
+  'ebony-guest-house': {
     title: 'Ebony House',
     image: '/images/ebony-house.jpg',
     content: 'blahblah',

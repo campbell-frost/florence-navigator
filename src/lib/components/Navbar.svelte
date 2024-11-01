@@ -7,9 +7,7 @@
 	const toggleNav = () => {
 		navOpen = !navOpen;
 	};
-
 </script>
-
 
 <nav class="border-b bg-background">
   <div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
@@ -32,7 +30,6 @@
                 >
                   {item.label}
                 </a>
-                
                 {#if item.children}
                   <div class="absolute left-0 top-11 w-56 invisible group-hover:visible 
                             opacity-0 group-hover:opacity-100 transition-all duration-200 

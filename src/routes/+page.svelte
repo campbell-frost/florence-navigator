@@ -1,4 +1,4 @@
-<div class="mx-auto mt-4 md:mt-24 max-w-6xl px-4 sm:px-6 lg:px-8">
+
 	<div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
 		<div class="space-y-10">
 			<h1 class="flex justify-center lg:justify-start font-serif text-4xl leading-tight sm:text-5xl lg:text-7xl">Explore Our History</h1>
@@ -47,4 +47,3 @@
 			title="map"
 		></iframe>
 	</div>
-</div>
