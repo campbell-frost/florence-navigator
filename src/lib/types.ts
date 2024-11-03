@@ -12,13 +12,13 @@ export type NavItem = {
   children?: NavItem[];
 };
 
-interface Contributor {
+type Contributor = {
   person: string;
   url?: string;
   title?: string;
 }
 
-interface ContributionSection {
+type ContributionSection = {
   title: string;
   contributors: Contributor[];
 }
