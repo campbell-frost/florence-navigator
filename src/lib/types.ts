@@ -16,11 +16,11 @@ type Contributor = {
   person: string;
   url?: string;
   title?: string;
-}
+};
 
 type ContributionSection = {
   title: string;
   contributors: Contributor[];
-}
+};
 
 export type About = ContributionSection[];
