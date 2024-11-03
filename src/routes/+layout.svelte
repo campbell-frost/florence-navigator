@@ -6,8 +6,10 @@
 </script>
 
 <Navbar />
-<div class="mx-auto mt-4 max-w-6xl px-4 sm:px-6 md:mt-24 lg:px-8 grid grid-rows-1 ">
-	{@render children()}
+<div class="bg-slate-50">
+	<div class="mx-auto pt-4 grid max-w-6xl grid-rows-1 px-4 sm:px-6 lg:px-8 ">
+		{@render children()}
+	</div>
 </div>
 
 <Footer />

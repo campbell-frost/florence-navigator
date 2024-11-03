@@ -12,7 +12,7 @@
 				<div>
 					<a href="/" class="flex flex-shrink-0 items-center">
 						<img class="h-8 w-8" src="/compasslogoflonav.png" alt="Logo" />
-						<h1 class="px-4 font-ptserrif text-3xl">Florence Navigator</h1>
+						<h1 class="px-4 font-vesperMedium text-3xl">Florence Navigator</h1>
 					</a>
 				</div>
 

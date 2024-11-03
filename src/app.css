@@ -102,4 +102,33 @@
 		font-weight: normal;
 		font-display: swap;
 	}
+	@font-face {
+		font-family: 'VesperLibre-Bold';
+		src: local('VesperLibre-Bold'), local('vesperlibre-bold'),
+			url('/fonts/Vesper/Lexend-Medium.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'VesperLibre-Heavy';
+		src: local('VesperLibre-Heavy'), local('VesperLibre-Heavy'),
+			url('/fonts/Vesper/VesperLibre-Heavy.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'VesperLibre-Medium';
+		src: local('VesperLibre-Medium'), local('VesperLibre-Medium'),
+			url('/fonts/Vesper/VesperLibre-Medium.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'VesperLibre-Regular';
+		src: local('VesperLibre-Regular'), local('VesperLibre-Regular'),
+			url('/fonts/Vesper/VesperLibre-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	
 }

@@ -74,7 +74,10 @@ const config: Config = {
 				lexendmedium: ['Lexend-Medium'],
 				lexendregular: ['Lexend-Regular'],
 				lexendsemibold: ['Lexend-SemiBold'],
-				
+				vesperBold: ['VesperLibre-Bold'],
+				vesperHeavy: ['VesperLibre-Heavy'],
+				vesperMedium: ['VesperLibre-Medium'],
+				vesperRegular: ['VesperLibre-Regular'],
 			},
 			keyframes: {
 				"accordion-down": {
