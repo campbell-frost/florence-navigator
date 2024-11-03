@@ -1,15 +1,15 @@
 <script lang="ts">
+	import { ModeWatcher } from 'mode-watcher';
 	import Navbar from '@/components/Navbar.svelte';
-	import '../app.css';
 	import Footer from '@/components/Footer.svelte';
+	import '../app.css';
+
 	let { children } = $props();
 </script>
 
+<ModeWatcher />
 <Navbar />
-<div class="bg-slate-50">
-	<div class="mx-auto pt-4 grid max-w-6xl grid-rows-1 px-4 sm:px-6 lg:px-8 ">
-		{@render children()}
-	</div>
+<div class="mx-auto grid max-w-6xl grid-rows-1 px-4 pt-4 sm:px-6 lg:px-8">
+	{@render children()}
 </div>
-
 <Footer />

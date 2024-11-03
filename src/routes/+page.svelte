@@ -1,14 +1,14 @@
 
 	<div class="grid grid-cols-1 items-center gap-8 lg:grid-cols-2">
 		<div class="space-y-10">
-			<h1 class="flex justify-center lg:justify-start font-serif text-4xl leading-tight sm:text-5xl lg:text-7xl">Explore Our History</h1>
+			<h1 class="flex justify-center lg:justify-start font-vesperRegular text-4xl leading-tight sm:text-5xl lg:text-7xl">Explore Our History</h1>
 			<div class="prose prose-lg">
-				<p class="text-gray-700">
+				<p class="text-gray-700 dark:text-gray-300">
 					Download the Florence Navigator app on your device to learn more about the history of
 					Florence and the Pee Dee Region of South Carolina. This free app offers guided tours
 					through downtown Florence and nearby areas.
 				</p>
-				<p class="text-gray-700">
+				<p class="text-gray-700 dark:text-gray-300 pt-4">
 					Looking for a fun way to learn about Florence-area history? Follow the links below to
 					Google Play or the iOS App Store and download the app for free. You'll get an immersive
 					experience of our unique cultural and historic legacy.

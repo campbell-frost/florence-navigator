@@ -2,6 +2,7 @@
 	import { Sheet, SheetContent, SheetTrigger } from '$lib/components/ui/sheet';
 	import { Menu } from 'lucide-svelte';
 	import { navItems } from '@/data/routes';
+	import ThemeToggle from './ThemeToggle.svelte';
 	let navOpen = $state(false);
 </script>
 
@@ -17,7 +18,7 @@
 				</div>
 
 				<div class="hidden lg:block">
-					<div class="ml-10 flex items-baseline space-x-4">
+					<div class="ml-10 flex items-center space-x-4">
 						{#each navItems as item}
 							<div class="group relative">
 								<a
@@ -46,13 +47,16 @@
 								{/if}
 							</div>
 						{/each}
+						<div >
+							<ThemeToggle />
+						</div>
 					</div>
 				</div>
 			</div>
 			<div class="lg:hidden">
 				<Sheet bind:open={navOpen}>
 					<SheetTrigger asChild>
-						<button onclick={() => (navOpen = !navOpen)} class="rounded-lg p-2 hover:bg-slate-100">
+						<button onclick={() => (navOpen = !navOpen)} class="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-slate-800">
 							<Menu class="h-5 w-5" />
 							<span class="sr-only">Open menu</span>
 						</button>
