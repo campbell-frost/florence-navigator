@@ -2,7 +2,6 @@ import type { NavItem } from "@/types";
 
 export const navItems: NavItem[] = [
   {
-    href: '/Downtown',
     label: 'Downtown Florence',
     children: [
       {

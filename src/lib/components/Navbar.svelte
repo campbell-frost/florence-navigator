@@ -18,12 +18,14 @@
 					<div class="ml-10 flex items-center space-x-4">
 						{#each navItems as item}
 							<div class="group relative">
-								<a
-									href={item.href}
-									class="py-2 pl-8 font-lexendregular text-lg font-medium transition-colors duration-200 hover:text-main-green"
-								>
-									{item.label}
-								</a>
+								<button>
+									<a
+										href={item.href}
+										class="py-2 pl-8 font-lexendregular text-lg font-medium transition-colors duration-200 hover:text-main-green"
+									>
+										{item.label}
+									</a>
+								</button>
 								{#if item.children}
 									<div
 										class="invisible absolute left-0 top-11 z-50 w-56

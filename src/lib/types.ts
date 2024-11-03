@@ -7,7 +7,7 @@ export type LocationModel = {
 };
 
 export type NavItem = {
-  href: string;
+  href?: string;
   label: string;
   children?: NavItem[];
 };
