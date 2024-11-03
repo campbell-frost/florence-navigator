@@ -16,9 +16,11 @@ const config: Config = {
 		},
 		extend: {
 			colors: {
+				'main-green': '#5f9948',
 				border: "hsl(var(--border) / <alpha-value>)",
 				input: "hsl(var(--input) / <alpha-value>)",
 				ring: "hsl(var(--ring) / <alpha-value>)",
+
 				background: "hsl(var(--background) / <alpha-value>)",
 				foreground: "hsl(var(--foreground) / <alpha-value>)",
 				primary: {
@@ -69,6 +71,10 @@ const config: Config = {
 			fontFamily: {
 				sans: [...fontFamily.sans],
 				ptserrif: ['PTSerrif'],
+				lexendmedium: ['Lexend-Medium'],
+				lexendregular: ['Lexend-Regular'],
+				lexendsemibold: ['Lexend-SemiBold'],
+				
 			},
 			keyframes: {
 				"accordion-down": {

@@ -6,7 +6,7 @@
 </script>
 
 <Navbar />
-<div class="mx-auto mt-4 max-w-6xl px-4 pb-40 sm:px-6 md:mt-24 lg:px-8 grid grid-rows-1 ">
+<div class="mx-auto mt-4 max-w-6xl px-4 sm:px-6 md:mt-24 lg:px-8 grid grid-rows-1 ">
 	{@render children()}
 </div>
 

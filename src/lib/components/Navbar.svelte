@@ -11,7 +11,7 @@
 			<div class="flex w-full items-center justify-between">
 				<div>
 					<a href="/" class="flex flex-shrink-0 items-center">
-						<img class="h-8 w-8" src="compasslogoflonav.png" alt="Logo" />
+						<img class="h-8 w-8" src="/compasslogoflonav.png" alt="Logo" />
 						<h1 class="px-4 font-ptserrif text-3xl">Florence Navigator</h1>
 					</a>
 				</div>
@@ -21,11 +21,11 @@
 						{#each navItems as item}
 							<div class="group relative">
 								<a
-								href={item.href}
-								class="pl-8 py-2 transition-colors hover:text-accent-foreground"
+									href={item.href}
+									class="py-2 pl-8 transition-colors hover:text-main-green  font-lexendregular duration-200 font-medium text-lg"
 								>
-								{item.label}
-							</a>
+									{item.label}
+								</a>
 								{#if item.children}
 									<div
 										class="invisible absolute left-0 top-11 z-50 w-56
@@ -34,7 +34,7 @@
                             group-hover:opacity-100"
 									>
 										{#each item.children as child}
-										<a
+											<a
 												href={child.href}
 												class="block px-4 py-2 text-sm text-foreground transition-colors
                                hover:bg-accent hover:text-accent-foreground"
@@ -52,7 +52,7 @@
 			<div class="lg:hidden">
 				<Sheet bind:open={navOpen}>
 					<SheetTrigger asChild>
-						<button onclick={() => navOpen = !navOpen} class="rounded-lg p-2 hover:bg-slate-100">
+						<button onclick={() => (navOpen = !navOpen)} class="rounded-lg p-2 hover:bg-slate-100">
 							<Menu class="h-5 w-5" />
 							<span class="sr-only">Open menu</span>
 						</button>

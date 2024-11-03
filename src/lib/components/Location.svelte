@@ -3,23 +3,22 @@
 	let { content, image, title }: LocationModel = $props();
 </script>
 
-<div class="container mx-auto px-4 py-8">
+<div class="py-8">
 	<div class="flex flex-col items-center gap-8 lg:flex-row">
 		<div class="flex-1 space-y-4">
-			<h1 class="px-4 font-ptserrif text-3xl">Florence Navigator</h1>
+			<h1 class="px-4 font-ptserrif text-5xl">{title}</h1>
 		</div>
-
-		<div class="w-full lg:w-1/2">
+		<div class="w-full lg:w-1/2 flex justify-center flex-col text-center">
 			<div class="overflow-hidden rounded-2xl shadow-lg">
-				<img
-					src={image}
-					alt={title}
-					class="h-72 w-full object-cover transition-transform duration-300 hover:scale-105"
-				/>
+				<img src={image} alt={title} class="h-72 w-full object-cover" />
 			</div>
+			<p class="prose text-gray-600 mt-3">
+				The Ebony Guest House historical marker. Courtesy of the Francis Marion University Office of
+				Communications.
+			</p>
 		</div>
 	</div>
-	<div class="prose max-w-none leading-relaxed text-gray-600 mt-20">
+	<div class="prose mt-20 max-w-none leading-relaxed text-gray-600">
 		{content}
 	</div>
 </div>

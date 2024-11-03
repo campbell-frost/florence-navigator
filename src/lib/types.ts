@@ -2,7 +2,7 @@ export type LocationModel = {
   title: string;
   image: string;
   content: string;
-  footer: string;
+  footer?: string;
   quote?: string[];
 };
 
