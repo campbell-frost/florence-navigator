@@ -6,7 +6,7 @@
 <div class="px-6 py-12">
 	<div class="flex flex-col items-center gap-8 lg:gap-12">
 		<div class="flex-1 space-y-4 text-center lg:text-left">
-			<h1 class="px-4 text-5xl font-bold tracking-tight text-gray-800 dark:text-gray-200 font-vesperMedium">
+			<h1 class="title">
 				{title}
 			</h1>
 		</div>

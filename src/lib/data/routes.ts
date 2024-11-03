@@ -32,6 +32,6 @@ export const navItems: NavItem[] = [
     ]
   },
   { href: '/services', label: 'Around Florence' },
-  { href: '/contact', label: 'About' },
+  { href: '/about', label: 'About' },
   { href: '/contact', label: 'Privacy Policy' }
 ];

@@ -11,3 +11,16 @@ export type NavItem = {
   label: string;
   children?: NavItem[];
 };
+
+interface Contributor {
+  person: string;
+  url?: string;
+  title?: string;
+}
+
+interface ContributionSection {
+  title: string;
+  contributors: Contributor[];
+}
+
+export type About = ContributionSection[];
