@@ -9,7 +9,7 @@
 
 <ModeWatcher />
 <Navbar />
-<div class="mx-auto grid max-w-6xl grid-rows-1 px-4 pt-4 sm:px-6 lg:px-8">
+<div class="mx-auto grid max-w-6xl grid-rows-1 p-4 sm:px-6 lg:px-8">
 	{@render children()}
 </div>
 <Footer />

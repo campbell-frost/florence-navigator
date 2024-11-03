@@ -3,16 +3,15 @@
 	let { contents: content, image, title, footer }: LocationModel = $props();
 </script>
 
-<div class="px-6 py-12">
-	<div class="flex flex-col items-center gap-8 lg:gap-12">
-		<div class="flex-1 space-y-4 text-center lg:text-left">
+<div class="card">
+	<div class="flex flex-col items-center  lg:gap-12">
+		<div class="flex-1  text-center lg:text-left">
 			<h1 class="title">
 				{title}
 			</h1>
 		</div>
 		<div class="flex w-full flex-col justify-center">
 			<img src={image} alt={title} class="h-full w-full object-cover transition-all duration-300 rounded-3xl mb-4" />
-
 			<p class="text-lg leading-relaxed text-gray-500">
 				{footer}
 			</p>

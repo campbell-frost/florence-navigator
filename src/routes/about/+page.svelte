@@ -2,7 +2,7 @@
 	import { about } from '@/data/about';
 </script>
 
-<div class="mt-40"> 
+<div class="card"> 
 	<h1 class="title">About Florence Navigator</h1>
 	<p class="prose mt-4">
 		The Florence Navigator is a collaborative endeavor between students from the Computer Science,
