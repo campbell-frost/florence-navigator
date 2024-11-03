@@ -6,27 +6,27 @@ export const navItems: NavItem[] = [
     label: 'Downtown Florence',
     children: [
       {
-        href: 'locations/ebony-guest-house',
+        href: '/locations/ebony-guest-house',
         label: 'Ebony Guest House'
       },
       {
-        href: 'locations/ebony',
+        href: '/locations/ebony-guest-house',
         label: 'Ebony Guest House'
       },
       {
-        href: 'locations/ebony',
+        href: '/locations/ebony-guest-house',
         label: 'Ebony Guest House'
       },
       {
-        href: 'locations/ebony',
+        href: '/locations/ebony-guest-house',
         label: 'Ebony Guest House'
       },
       {
-        href: 'locations/ebony',
+        href: '/locations/ebony-guest-house',
         label: 'Ebony Guest House'
       },
       {
-        href: 'locations/ebony',
+        href: '/locations/ebony-guest-house',
         label: 'Ebony Guest House'
       }
     ]

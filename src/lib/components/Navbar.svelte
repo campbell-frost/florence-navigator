@@ -10,20 +10,17 @@
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-start">
 			<div class="flex w-full items-center justify-between">
-				<div>
-					<a href="/" class="flex flex-shrink-0 items-center">
-						<img class="h-8 w-8" src="/compasslogoflonav.png" alt="Logo" />
-						<h1 class="px-4 font-vesperMedium text-3xl">Florence Navigator</h1>
-					</a>
-				</div>
-
+				<a href="/" class="flex items-center justify-center">
+					<img class="h-8 w-8" src="/compasslogoflonav.png" alt="Logo" />
+					<h1 class="px-4 font-vesperMedium text-3xl leading-none">Florence Navigator</h1>
+				</a>
 				<div class="hidden lg:block">
 					<div class="ml-10 flex items-center space-x-4">
 						{#each navItems as item}
 							<div class="group relative">
 								<a
 									href={item.href}
-									class="py-2 pl-8 transition-colors hover:text-main-green  font-lexendregular duration-200 font-medium text-lg"
+									class="py-2 pl-8 font-lexendregular text-lg font-medium transition-colors duration-200 hover:text-main-green"
 								>
 									{item.label}
 								</a>
@@ -47,7 +44,7 @@
 								{/if}
 							</div>
 						{/each}
-						<div >
+						<div>
 							<ThemeToggle />
 						</div>
 					</div>
@@ -56,7 +53,10 @@
 			<div class="lg:hidden">
 				<Sheet bind:open={navOpen}>
 					<SheetTrigger asChild>
-						<button onclick={() => (navOpen = !navOpen)} class="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-slate-800">
+						<button
+							onclick={() => (navOpen = !navOpen)}
+							class="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-slate-800"
+						>
 							<Menu class="h-5 w-5" />
 							<span class="sr-only">Open menu</span>
 						</button>

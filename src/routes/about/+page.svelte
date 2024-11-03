@@ -16,7 +16,7 @@
 		{#each about as item}
 			<h1 class="text-3xl mb-4">{item.title}</h1>
 			<ul>
-				<li class="mb-10">
+				<li class="mb-5">
 					{#each item.contributors as contributer}
 						<div class="flex ml-7">
 							{#if contributer.url}
