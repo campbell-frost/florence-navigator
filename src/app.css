@@ -72,9 +72,10 @@
 		@apply  font-vesperMedium text-5xl font-bold tracking-tight text-gray-800 dark:text-gray-200;
 	}
 	.card {
-		@apply rounded-md p-12 shadow-md bg-white
+		@apply rounded-md p-12 shadow-md bg-white dark:bg-zinc-950 dark:p-0 dark:mt-4
 	}
 }
+
 @layer base {
 	@font-face {
 		font-family: 'PTSerif-Bold';
