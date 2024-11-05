@@ -1,27 +1,33 @@
 <script lang="ts">
 	import type { LocationModel } from '$lib/types';
-	let { contents: content, image, title, footer }: LocationModel = $props();
+	let { contents: content, image, title, footer, location }: LocationModel = $props();
 </script>
 
-<div class="card">
-	<div class="flex flex-col items-center ">
-		<div class="flex-1 text-center lg:text-left">
-			<h1 class="title pb-10">
-				{title}
-			</h1>
-		</div>
-		<div class="flex w-full flex-col justify-center">
-			<img src={image} alt={title} class="h-full w-full object-cover transition-all duration-300 rounded-3xl mb-4" />
-			<p class="text-lg leading-relaxed text-gray-500 dark:text-gray-400">
-				{footer}
-			</p>
-		</div>
-	</div>
-	<div class="prose mt-12 max-w-none leading-relaxed">
-		{#each content as item}
-			<div class="pt-4 text-base text-gray-600 dark:text-gray-300 lg:text-lg">
-				{item}
+<article class="card">
+	<header class="mb-8">
+		<h1 class="title mb-4">{title}</h1>
+		<img
+			src={image}
+			alt={title}
+			class="mb-4 h-full w-full rounded-lg object-cover transition-all duration-300"
+		/>
+		<div class="flex items-center justify-between bg-gray-50 dark:bg-background p-3 dark:p-0  rounded-lg">
+			<div class="flex gap-x-3">
+				<svg class="h-5 w-5 text-gray-600" viewBox="0 0 20 20" fill="currentColor">
+					<path
+						fill-rule="evenodd"
+						d="M5.05 4.05a7 7 0 119.9 9.9L10 18.9l-4.95-4.95a7 7 0 010-9.9zM10 11a2 2 0 100-4 2 2 0 000 4z"
+						clip-rule="evenodd"
+					/>
+				</svg>
+				<span class="text-gray-600">{location}</span>
 			</div>
+			<p class="text-sm italic text-gray-500">{footer}</p>
+		</div>
+	</header>
+	<div class="prose prose-lg max-w-none">
+		{#each content as items}
+			<p class="mb-6 leading-relaxed text-gray-700 dark:text-gray-400">{items}</p>
 		{/each}
 	</div>
-</div>
+</article>

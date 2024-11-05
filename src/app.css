@@ -34,7 +34,7 @@
   }
 
   .dark {
-    --background: 0 0% 3.9%;
+		--background: 240 10% 4%;
     --foreground: 0 0% 98%;
     --card: 0 0% 3.9%;
     --card-foreground: 0 0% 98%;
@@ -72,7 +72,7 @@
 		@apply  font-vesperMedium text-5xl font-bold tracking-tight text-gray-800 dark:text-gray-200;
 	}
 	.card {
-		@apply rounded-md p-12 shadow-md bg-white dark:bg-zinc-950 dark:p-0 dark:mt-10
+		@apply rounded-md p-12 shadow-md bg-white dark:bg-background dark:p-0 dark:mt-10
 	}
 }
 

@@ -39,6 +39,10 @@ export const navItems: NavItem[] = [
       {
         href: "/locations/st-johns-episcopal-church",
         label: "St. Johns Episcopal Church"
+      },
+      {
+        href: "/locations/william-h-johnson-statue",
+        label: "William H Johnson Statue"
       }
     ]
   },

@@ -1,6 +1,7 @@
 export type LocationModel = {
   title: string;
-  image: string;
+  location?: string;
+  image?: string;
   contents: string[];
   footer?: string;
   quote?: string[];
