@@ -6,7 +6,7 @@
 	let navOpen = $state(false);
 </script>
 
-<nav class="border-b ">
+<nav class="border-b bg-white dark:bg-background">
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-start">
 			<div class="flex w-full items-center justify-between">
@@ -57,7 +57,7 @@
 					<SheetTrigger asChild>
 						<button
 							onclick={() => (navOpen = !navOpen)}
-							class="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-slate-800"
+							class="rounded-lg p-2 transition delay-350"
 						>
 							<Menu class="h-5 w-5" />
 							<span class="sr-only">Open menu</span>

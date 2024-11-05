@@ -11,7 +11,7 @@
 	};
 </script>
 
-<button onclick={toggleState} class="rounded-lg p-2 hover:bg-slate-100 dark:hover:bg-slate-800">
+<button onclick={toggleState} class="rounded-lg p-2 transition-colors duration-200 hover:text-main-green">
 	{#if sun}
 		<Sun />
 	{:else}
