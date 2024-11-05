@@ -6,13 +6,13 @@
 			>
 				Explore Our History
 			</h1>
-			<div class="prose prose-lg">
-				<p class="text-gray-700 dark:text-gray-300">
+			<div class="prose prose-lg font-roboto text-gray-700 dark:text-gray-300">
+				<p>
 					Download the Florence Navigator app on your device to learn more about the history of
 					Florence and the Pee Dee Region of South Carolina. This free app offers guided tours
 					through downtown Florence and nearby areas.
 				</p>
-				<p class="pt-4 text-gray-700 dark:text-gray-300">
+				<p class="pt-4">
 					Looking for a fun way to learn about Florence-area history? Follow the links below to
 					Google Play or the iOS App Store and download the app for free. You'll get an immersive
 					experience of our unique cultural and historic legacy.

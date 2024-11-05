@@ -21,7 +21,7 @@
 								<button>
 									<a
 										href={item.href}
-										class="py-2 pl-8 font-lexendregular text-lg font-medium transition-colors duration-200 hover:text-main-green"
+										class="py-2 pl-8 font-roboto text-lg font-medium transition-colors duration-200 hover:text-main-green"
 									>
 										{item.label}
 									</a>

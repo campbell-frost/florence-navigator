@@ -2,35 +2,83 @@ import type { NavItem } from "@/types";
 
 export const navItems: NavItem[] = [
   {
-    label: 'Downtown Florence',
+    label: "Downtown Florence",
     children: [
       {
-        href: '/locations/ebony-guest-house',
-        label: 'Ebony Guest House'
+        href: "/locations/ebony-guest-house",
+        label: "Ebony Guest House"
       },
       {
-        href: '/locations/ebony-guest-house',
-        label: 'Ebony Guest House'
+        href: "/locations/florence-county-library",
+        label: "Florence County Library"
       },
       {
-        href: '/locations/ebony-guest-house',
-        label: 'Ebony Guest House'
+        href: "/locations/florence-county-museum",
+        label: "Florence County Museum"
       },
       {
-        href: '/locations/ebony-guest-house',
-        label: 'Ebony Guest House'
+        href: "/locations/gambles-hotel",
+        label: "Gamble's Hotel (Civil War Skirmish)"
       },
       {
-        href: '/locations/ebony-guest-house',
-        label: 'Ebony Guest House'
+        href: "/locations/henry-timrod-schoolhouse",
+        label: "Henry Timrod Schoolhouse"
       },
       {
-        href: '/locations/ebony-guest-house',
-        label: 'Ebony Guest House'
+        href: "/locations/iola-jones-park",
+        label: "Iola Jones Park"
+      },
+      {
+        href: "/locations/kress-demonstration",
+        label: "Kress Demonstration 1960"
+      },
+      {
+        href: "/locations/poynor-school",
+        label: "Poynor School (Wilson School)"
+      },
+      {
+        href: "/locations/st-johns-episcopal-church",
+        label: "St. Johns Episcopal Church"
       }
     ]
   },
-  { href: '/services', label: 'Around Florence' },
-  { href: '/about', label: 'About' },
-  { href: '/contact', label: 'Privacy Policy' }
+  {
+    label: "Around Florence",
+    children: [
+      {
+        href: "/locations/florence-national-cemetery",
+        label: "Florence National Cemetary"
+      },
+      {
+        href: "/locations/florence-stockade",
+        label: "Florence Stockade"
+      },
+      {
+        href: "/locations/hewn-timber-cabins",
+        label: "Hewn-Timber Cabins"
+      },
+      {
+        href: "/locations/hopewell-presbyterian-church",
+        label: "Hopewell Presbyterian Church"
+      },
+      {
+        href: "/locations/mt-zion-cemetary",
+        label: "Mt. Zion Cemetary"
+      },
+      {
+        href: "/locations/mt-zion-united-methodist-church-rosenwald-school",
+        label: "Mt. Zion United Methodist Church"
+      },
+      {
+        href: "/locations/red-doe-plantation/",
+        label: "Red Doe Plantation"
+      },
+      {
+        href: "/locations/union-cemetary",
+        label: "Union Cemetary"
+      }
+    ]
+  },
+  { href: "/about", label: "About" },
+  { href: "/contact", label: "Privacy Policy" }
 ];

@@ -72,37 +72,11 @@
 		@apply  font-vesperMedium text-5xl font-bold tracking-tight text-gray-800 dark:text-gray-200;
 	}
 	.card {
-		@apply rounded-md p-12 shadow-md bg-white dark:bg-zinc-950 dark:p-0 dark:mt-4
+		@apply rounded-md p-12 shadow-md bg-white dark:bg-zinc-950 dark:p-0 dark:mt-10
 	}
 }
 
 @layer base {
-	@font-face {
-		font-family: 'PTSerif-Bold';
-		src: local('PTSerif'), local('pterif'), url('/fonts/PTSerif-Bold.ttf');
-		font-weight: normal;
-		font-display: swap;
-	}
-
-	@font-face {
-		font-family: 'Lexend-Medium';
-		src: local('Lexend-Medium'), local('lexend-medium'), url('/fonts/Lexend/Lexend-Medium.ttf');
-		font-weight: normal;
-		font-display: swap;
-	}
-	@font-face {
-		font-family: 'Lexend-SemiBold';
-		src: local('Lexend-SemiBold'), local('lexend-semiBold'),
-			url('/fonts/Lexend/Lexend-SemiBold.ttf');
-		font-weight: normal;
-		font-display: swap;
-	}
-	@font-face {
-		font-family: 'Lexend-Regular';
-		src: local('Lexend-Regular'), local('lexend-regular'), url('/fonts/Lexend/Lexend-Regular.ttf');
-		font-weight: normal;
-		font-display: swap;
-	}
 	@font-face {
 		font-family: 'VesperLibre-Bold';
 		src: local('VesperLibre-Bold'), local('vesperlibre-bold'),
@@ -128,6 +102,13 @@
 		font-family: 'VesperLibre-Regular';
 		src: local('VesperLibre-Regular'), local('VesperLibre-Regular'),
 			url('/fonts/Vesper/VesperLibre-Regular.ttf');
+		font-weight: normal;
+		font-display: swap;
+	}
+	@font-face {
+		font-family: 'RobotoFlex';
+		src: local('RobotoFlex'), local('RobotoFlex'),
+			url('/fonts/Roboto/RobotoFlex.ttf');
 		font-weight: normal;
 		font-display: swap;
 	}

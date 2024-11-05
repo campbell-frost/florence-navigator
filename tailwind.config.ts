@@ -70,14 +70,11 @@ const config: Config = {
 			},
 			fontFamily: {
 				sans: [...fontFamily.sans],
-				ptserrif: ['PTSerrif'],
-				lexendmedium: ['Lexend-Medium'],
-				lexendregular: ['Lexend-Regular'],
-				lexendsemibold: ['Lexend-SemiBold'],
 				vesperBold: ['VesperLibre-Bold'],
 				vesperHeavy: ['VesperLibre-Heavy'],
 				vesperMedium: ['VesperLibre-Medium'],
 				vesperRegular: ['VesperLibre-Regular'],
+				roboto: ['RobotoFlex'],
 			},
 			keyframes: {
 				"accordion-down": {
