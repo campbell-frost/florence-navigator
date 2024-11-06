@@ -10,7 +10,7 @@
 				<a href="/about"> About / Credits </a>
 			</h1>
 			<h1 class="text-md font-semibold">
-				<a href="/privacy"> Privacy </a>
+				<a href="/privacy-policy"> Privacy </a>
 			</h1>
 		</div>
 	</div>
