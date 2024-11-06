@@ -80,7 +80,7 @@
 	}
 
   .prose {
-    @apply text-gray-700 dark:text-gray-400 font-roboto text-lg leading-relaxed
+    @apply text-gray-700 dark:text-gray-300 font-roboto text-lg leading-relaxed
   }
 }
 

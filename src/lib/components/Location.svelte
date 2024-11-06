@@ -14,10 +14,10 @@
 		/>
 		<div class="grid grid-cols-2 rounded-lg bg-gray-50 p-3 dark:bg-background dark:p-0" >
 			<div class="flex items-start gap-x-3">
-				<MapPin class="text-gray-700 dark:text-gray-400" />
-				<span class="text-gray-700 dark:text-gray-400">{location}</span>
+				<MapPin class="text-gray-700 dark:text-gray-300" />
+				<span class="text-gray-700 dark:text-gray-300">{location}</span>
 			</div>
-			<p class="text-end italic text-gray-700 dark:text-gray-400">{footer}</p>
+			<p class="text-end italic text-gray-700 dark:text-gray-300">{footer}</p>
 		</div>
 	</header>
 	{#each content as items}
