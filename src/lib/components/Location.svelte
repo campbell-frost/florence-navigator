@@ -12,8 +12,8 @@
 			alt={title}
 			class="mb-4 h-full w-full rounded-lg object-cover transition-all duration-300"
 		/>
-		<div class="grid grid-cols-2 rounded-lg bg-gray-50 p-3 dark:bg-background dark:p-0">
-			<div class="flex items-center gap-x-3">
+		<div class="grid grid-cols-2 rounded-lg bg-gray-50 p-3 dark:bg-background dark:p-0" >
+			<div class="flex items-start gap-x-3">
 				<MapPin class="text-gray-700 dark:text-gray-400" />
 				<span class="text-gray-700 dark:text-gray-400">{location}</span>
 			</div>
