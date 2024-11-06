@@ -71,9 +71,17 @@
 	.title {
 		@apply  font-vesperMedium text-5xl font-bold tracking-tight text-gray-800 dark:text-gray-200;
 	}
+
+  .header {
+    @apply text-gray-800 dark:text-gray-300 text-2xl 
+  }
 	.card {
-		@apply rounded-md p-12 shadow-md bg-white dark:bg-background dark:p-0 dark:mt-10
+		@apply rounded-md p-12 shadow-md dark:shadow-none bg-white dark:bg-background dark:p-0 dark:mt-10 
 	}
+
+  .prose {
+    @apply text-gray-700 dark:text-gray-400 font-roboto text-lg leading-relaxed
+  }
 }
 
 @layer base {

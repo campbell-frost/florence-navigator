@@ -14,8 +14,8 @@
 	</p>
 	<div class="mt-4">
 		{#each about as item}
-			<h1 class="text-3xl mb-4">{item.title}</h1>
-			<ul>
+			<h1 class="mb-4 header">{item.title}</h1>
+			<ul class="prose">
 				<li class="mb-5">
 					{#each item.contributors as contributer}
 						<div class="flex ml-7">

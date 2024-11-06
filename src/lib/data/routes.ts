@@ -84,5 +84,5 @@ export const navItems: NavItem[] = [
     ]
   },
   { href: "/about", label: "About" },
-  { href: "/contact", label: "Privacy Policy" }
+  { href: "/privacy-policy", label: "Privacy Policy" }
 ];

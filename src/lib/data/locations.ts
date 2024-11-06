@@ -12,7 +12,7 @@ export const locations: Record<string, LocationModel> = {
       "Tharpe was known as the grandmother of rock 'n' roll and traveled with artists including the Jordanaires, an all-white group, and the Lucky Millinder Orchestra. Due to rampant segregation at the time, Thorpe would often sleep on the tour bus and pick up food from the back of restaurants. Places like the Ebony Guest House provided Thorpe with somewhere hospitable to stay while she traveled, rather than staying on the bus all the time. ",
       "However, during the 1960s Civil Rights Movement, many places previously unavailable to the Black community were now open to them, which meant that several Black businesses, such as the guest house, began to close down. In 1972, the guest house halted its operations, due largely to Mrs. Holmes' failing health and rival competition. Mrs. Holmes passed away in 1981, and her grandchildren, Priscilla and Gloria Holmes, decided to take up the mantle and reopen the guest house. The guest house was renamed Holmes Apartments, which still are in use today and owned by the Holmes family, passed down through generations."
     ],
-    footer: "The Ebony Guest House historical marker. Courtesy of the Francis Marion University Office of Communications. "
+    footer: "The Ebony Guest House historical marker.\r\nCourtesy of the Francis Marion University Office of Communications. "
   },
   "florence-county-library": {
     title: "Florence County Library",

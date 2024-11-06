@@ -57,7 +57,7 @@
 					<SheetTrigger asChild>
 						<button
 							onclick={() => (navOpen = !navOpen)}
-							class="rounded-lg p-2 transition delay-350"
+							class="hover:text-main-green transition-all duration-100"
 						>
 							<Menu class="h-5 w-5" />
 							<span class="sr-only">Open menu</span>
