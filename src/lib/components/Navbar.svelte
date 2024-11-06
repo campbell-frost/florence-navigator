@@ -10,7 +10,7 @@
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-start">
 			<div class="flex w-full items-center justify-between">
-				<a href="/" class="flex items-center justify-center ">
+				<a href="/" class="flex items-center justify-center">
 					<img class="h-8 w-8" src="/compasslogoflonav.png" alt="Logo" />
 					<h1 class="px-4 font-vesperMedium text-3xl leading-none">Florence Navigator</h1>
 				</a>
