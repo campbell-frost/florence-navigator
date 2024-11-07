@@ -6,7 +6,7 @@
 	let navOpen = $state(false);
 </script>
 
-<nav class="border-b bg-white dark:bg-background">
+<nav class="border-b bg-white dark:bg-background relative z-10">
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-start">
 			<div class="flex w-full items-center justify-between">

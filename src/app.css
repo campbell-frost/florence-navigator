@@ -65,9 +65,11 @@
 	* {
 		@apply border-border;
 	}
+
 	body {
 		@apply bg-background text-foreground;
 	}
+
 	.title {
 		@apply  font-vesperMedium text-5xl font-bold tracking-tight text-gray-800 dark:text-gray-200;
 	}
@@ -75,12 +77,16 @@
   .header {
     @apply text-gray-800 dark:text-gray-300 text-2xl 
   }
-	.card {
-		@apply rounded-md p-12 shadow-md dark:shadow-none bg-white dark:bg-background dark:p-0 dark:mt-10 
-	}
+
+	.card { 
+		@apply border dark:border-t-0 dark:border-b-0 px-12 pt-8 dark:pt-[49px] dark:rounded-none rounded-lg my-4 dark:my-0 bg-white dark:bg-background
+  	}
 
   .prose {
     @apply text-gray-700 dark:text-gray-300 font-roboto text-lg leading-relaxed
+  }
+  .layout {
+    @apply mx-auto grid w-full max-w-6xl grid-rows-1 sm:px-6 lg:px-8
   }
 }
 
