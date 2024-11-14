@@ -2,32 +2,60 @@
 	import { about } from '@/data/about';
 </script>
 
-<div class="card"> 
-	<h1 class="title">About Florence Navigator</h1>
-	<p class="prose mt-4">
-		The Florence Navigator is a collaborative endeavor between students from the Computer Science,
-		History, English, and Visual Arts program at Francis Marion University. Professor Keith Best
-		narrated the scripts for each site, and the <a
-			href="https://bluedogs.com/"
-			class="text-main-green underline">Blue Dogs</a
-		> provided intro music for the audio recordings.
-	</p>
-	<div class="mt-4">
-		{#each about as item}
-			<h1 class="mb-4 header">{item.title}</h1>
-			<ul class="prose">
-				<li class="mb-5">
-					{#each item.contributors as contributer}
-						<div class="flex ml-7">
-							{#if contributer.url}
-								<a class=" text-main-green underline" href={contributer.url}>{contributer.person}</a>
-							{:else}
-								{contributer.person}, {contributer.title}
-							{/if}
-						</div>
-					{/each}
-				</li>
-			</ul>
-		{/each}
+<div class="mx-auto max-w-4xl">
+	<div class="card space-y-8">
+		<header class="text-center">
+			<h1 class="mb-6 font-vesperBold text-4xl text-gray-900 dark:text-gray-100">
+				About Florence Navigator
+			</h1>
+
+			<p class="prose prose-lg mx-auto text-gray-700 dark:text-gray-300">
+				The Florence Navigator is a collaborative endeavor between students from the Computer
+				Science, History, English, and Visual Arts program at Francis Marion University. Professor
+				Keith Best narrated the scripts for each site, and the
+				<a
+					href="https://bluedogs.com/"
+					class="text-emerald-600 transition-colors hover:underline dark:text-emerald-500"
+				>
+					Blue Dogs
+				</a> provided intro music for the audio recordings.
+			</p>
+		</header>
+
+		<div class="space-y-12">
+			{#each about as section}
+				<section class="space-y-6">
+					<h2 class="text-center font-vesperMedium text-3xl text-gray-800 dark:text-gray-300">
+						{section.title}
+					</h2>
+
+					<ul class="mx-auto grid max-w-3xl grid-cols-1 gap-6 sm:grid-cols-2">
+						{#each section.contributors as contributor, i}
+							<div class={`text-center ${i % 2 === 0 ? 'sm:text-left' : 'sm:text-right'}`}>
+								<li class="flex flex-col">
+									{#if contributor.url}
+										<a
+											href={contributor.url}
+											class="text-emerald-600 transition-colors hover:underline dark:text-emerald-500"
+										>
+											{contributor.person}
+										</a>
+									{:else}
+										<span class="font-roboto text-lg text-gray-900 dark:text-gray-100">
+											{contributor.person}
+										</span>
+										{#if contributor.title}
+											<span class="text-sm text-gray-600 dark:text-gray-400">
+												{contributor.title}
+											</span>
+										{/if}
+									{/if}
+								</li>
+							</div>
+						{/each}
+					</ul>
+				</section>
+			{/each}
+		</div>
 	</div>
 </div>

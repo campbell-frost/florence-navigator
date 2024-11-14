@@ -6,7 +6,7 @@ export const about: About = [
     contributors: [
       { person: "Austin Freeman", title: "Software Engineer" },
       { person: "Roland Vu", title: "Software Engineer" },
-      { person: "Alaina Hudson, ", title: "Historian" },
+      { person: "Alaina Hudson", title: "Historian" },
       { person: "Darius Hicks-Terrell", title: "Content Writer" },
       { person: "Mace Talbott", title: "Content Writer" },
       { person: "Madeline Severance", title: "Logo Designer" },

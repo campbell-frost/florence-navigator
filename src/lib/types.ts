@@ -20,7 +20,7 @@ export type NavItem = {
   children?: NavItem[];
 };
 
-type Contributor = {
+export type Contributor = {
   person: string;
   url?: string;
   title?: string;

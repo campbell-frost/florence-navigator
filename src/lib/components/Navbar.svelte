@@ -23,7 +23,7 @@
 								<button>
 									<a
 										href={item.href}
-										class="py-2 pl-8 font-medium text-lg transition-colors duration-200 hover:text-main-green"
+										class="py-2 pl-8 font-medium text-lg transition-colors duration-200 hover:text-emerald-600"
 									>
 										{item.label}
 									</a>
@@ -59,7 +59,7 @@
 					<SheetTrigger asChild>
 						<button
 							onclick={() => (navOpen = !navOpen)}
-							class="hover:text-main-green transition-all duration-100"
+							class="hover:text-emerald-600 transition-all duration-100"
 						>
 							<Menu class="h-5 w-5" />
 							<span class="sr-only">Open menu</span>
