@@ -77,7 +77,7 @@
 	}
 
 	.card {
-		@apply my-4 rounded-lg border bg-white px-12 pt-8 dark:my-0 dark:rounded-none dark:border-b-0 dark:border-t-0 dark:bg-background dark:pt-[49px];
+		@apply my-4 rounded-lg border bg-white p-12 dark:bg-[#0a0a0d] ; 
 	}
 
 	.prose {
@@ -92,7 +92,7 @@
 	@font-face {
 		font-family: 'VesperLibre-Bold';
 		src: local('VesperLibre-Bold'), local('vesperlibre-bold'),
-			url('/fonts/Vesper/Lexend-Medium.ttf');
+			url('/fonts/Vesper/VesperLibre-Bold.ttf');
 		font-weight: normal;
 		font-display: swap;
 	}

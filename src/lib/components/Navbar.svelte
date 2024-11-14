@@ -6,13 +6,15 @@
 	let navOpen = $state(false);
 </script>
 
-<nav class="border-b bg-white dark:bg-background relative z-10">
+<nav class="border-b bg-white dark:bg-background">
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-start">
 			<div class="flex w-full items-center justify-between">
-				<a href="/" class="flex items-center justify-center">
+				<a href="/" class="flex items-center justify-center ">
 					<img class="h-8 w-8" src="/compasslogoflonav.png" alt="Logo" />
-					<h1 class="px-4 font-vesperMedium text-3xl leading-none">Florence Navigator</h1>
+					<h1 class="flex items-baseline px-4 font-vesperBold text-3xl leading-none mt-2">
+						Florence Navigator
+					</h1>
 				</a>
 				<div class="hidden lg:block">
 					<div class="ml-10 flex items-center space-x-4">
@@ -21,7 +23,7 @@
 								<button>
 									<a
 										href={item.href}
-										class="py-2 pl-8 font-roboto text-lg font-medium transition-colors duration-200 hover:text-main-green"
+										class="py-2 pl-8 font-medium text-lg transition-colors duration-200 hover:text-main-green"
 									>
 										{item.label}
 									</a>

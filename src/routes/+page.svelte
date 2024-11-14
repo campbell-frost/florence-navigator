@@ -44,10 +44,10 @@
 		</div>
 	</div>
 	<div class="flex flex-col items-center mt-40">
-		<h1 class="mb-8 font-serif text-4xl leading-tight sm:text-5xl lg:text-7xl">Places we visit</h1>
+		<h1 class="mb-8 font-serif text-4xl leading-tight sm:text-5xl lg:text-7xl">Florence Historical Sites</h1>
 		<iframe
 			src="https://www.google.com/maps/d/u/0/embed?mid=1aW_c4G6vuUnxuw9yBlqzImG_edApTq0&amp;ehbc=2E312F"
-			class="h-[300px] w-full sm:h-[400px] md:h-[600px] lg:h-[800px] xl:h-[960px]"
+			class="h-[300px] w-full sm:h-[400px] md:h-[600px] lg:h-[800px] xl:h-[960px] my-4"
 			title="map"
 		></iframe>
 	</div>

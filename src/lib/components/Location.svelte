@@ -1,7 +1,8 @@
 <script lang="ts">
 	import type { LocationModel } from '$lib/types';
 	import { MapPin } from 'lucide-svelte';
-	let { contents: content, image, title, footer, location }: LocationModel = $props();
+	import { ItemType } from '$lib/types';
+	let { contents, image, title, footer, location }: LocationModel = $props();
 </script>
 
 <article class="card">
@@ -21,8 +22,18 @@
 				<p class="text-end italic text-gray-700 dark:text-gray-300">{footer}</p>
 			</div>
 		</header>
-		{#each content as items}
-			<p class="prose mb-6">{items}</p>
+		{#each contents as items}
+			{#if items.type === ItemType.paragraph}
+				<p class="prose mb-6">{items.text}</p>
+			{:else if items.type === ItemType.quote}
+				<blockquote>
+					<div class="mb-6 flex w-full items-center justify-center text-center">
+						<p class="prose w-1/3 font-vesperMedium leading-10 text-gray-700 dark:text-gray-300">
+							{items.text}
+						</p>
+					</div>
+				</blockquote>
+			{/if}
 		{/each}
 	</div>
 </article>

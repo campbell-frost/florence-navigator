@@ -1,8 +1,15 @@
+export enum ItemType {
+  quote = "quote",
+  paragraph = "paragraph",
+} 
+
+type Item = { type: ItemType.quote, text: string } | { type: ItemType.paragraph, text: string };
+
 export type LocationModel = {
   title: string;
   location?: string;
   image?: string;
-  contents: string[];
+  contents: Item[];
   footer?: string;
   quote?: string[];
 };
