@@ -6,7 +6,7 @@
 	let navOpen = $state(false);
 </script>
 
-<nav class="border-b bg-white dark:bg-background">
+<nav class="border-b bg-background">
 	<div class="mx-auto max-w-6xl px-4 sm:px-6 lg:px-8">
 		<div class="flex h-16 items-center justify-start">
 			<div class="flex w-full items-center justify-between">
@@ -38,7 +38,7 @@
 										{#each item.children as child}
 											<a
 												href={child.href}
-												class="block px-4 py-2 text-sm text-foreground transition-colors
+												class="block px-4 py-2 font-roboto text-sm text-foreground transition-colors
                                hover:bg-accent hover:text-accent-foreground"
 											>
 												{child.label}
