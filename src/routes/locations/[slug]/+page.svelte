@@ -1,7 +1,7 @@
 <script lang="ts">
 	import Location from '$lib/components/Location.svelte';
-	import type { LocationModel } from '$lib/types';
-	let location: LocationModel = $props();
+	import type { PageData } from './$types';
+	let { data } = $props<{ data: PageData }>();
 </script>
 
-<Location {...location} />
+<Location {...data.location} />
