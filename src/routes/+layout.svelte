@@ -8,10 +8,10 @@
 </script>
 
 <ModeWatcher />
-<div class="grid min-h-screen grid-rows-[auto_1fr_auto] ">
+<div class="grid min-h-screen grid-rows-[auto_1fr_auto]">
   <Navbar />
   <div class="layout">
-    {@render children()}
+    {@render children()} 
   </div>
   <Footer />
 </div>
